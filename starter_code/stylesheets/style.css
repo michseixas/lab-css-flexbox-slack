@@ -8,3 +8,165 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+/* General*/
+
+* {
+    background-color: #540B51;
+
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+
+
+
+
+}
+
+
+div {
+    border: 1px solid blue;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid yellow;
+    background-color: #540B51;
+    width: 100%;
+}
+
+.slack-logo {
+    width: 30%;
+    padding: 1%;;
+}
+
+.icons-nav {
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.search-icon {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.menu-icon {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+div.section-1 {
+    text-align: center;
+}
+
+div.section-2 {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttonEmail {
+    border-radius: 8px;
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 150%;
+    padding: 3%;
+    color: #540B51;
+    border: none;
+    margin-bottom: 17px;
+}
+
+.buttonGoogle {
+    border-radius: 8px;
+    background-color: #4285F4;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 150%;
+    padding: 2%;
+    margin-bottom: 17px;
+   
+}
+
+.section-2 span {
+    background-color: #4285F4;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonGoogle img{
+    width: 5%;
+    background-color: white;
+    
+}
+
+
+
+
+
+/* section 1*/
+
+
+
+body>header>div>h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    padding: 3% 3% 0 3%;
+}
+
+body>header>div>p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 1%;
+}
+
+body>header>div>p>span {
+    color: #ECB12F;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.image-hero , .connectedness , .flexibility , .speed {
+    width: 100%;
+}
+
+.lots-of-logos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 6%;
+    background-color: #F3EAE2;
+}
+
+.lots-of-logos img{
+    height: 60px;
+    background-color: #F3EAE2;
+    padding: 3%;
+}
+
+body>main>section {
+    background-color: #F3EAE2;
+}
+
+body>main>section>.div-trusted>p {
+    background-color: #F3EAE2;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 220%;
+}
+
+.div-trusted {
+    background-color: #F3EAE2;
+}
+
