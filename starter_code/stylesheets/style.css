@@ -17,12 +17,12 @@ footer links grey: #454245
 
 }
 
+
+
 @media (min-width: 320px) and (max-width: 768px){
-
-
-
-
 }
+
+
 
 
 div {
@@ -173,6 +173,8 @@ body>main>section>.div-trusted>p {
 .bring-choose-move {
     background-color: #F3EAE2;
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 13%;
+    
 
 }
 
@@ -183,10 +185,26 @@ h2 {
     padding-left: 15px;
 }
 
-.bring-choose-move p{
+.bring-choose-move p {
     background-color: #F3EAE2;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 160%;
     padding-left: 15px;
+    line-height: 1.3;
 
+}
+
+.bring-choose-move span {
+    background-color: #F3EAE2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 160%;
+    padding-left: 15px;
+    line-height: 1.3;
+    color: #2E71A6;
+    word-spacing: 2px;
+
+}
+
+main {
+    background-color: #F3EAE2;
 }
