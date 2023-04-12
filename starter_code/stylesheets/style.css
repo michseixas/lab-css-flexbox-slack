@@ -170,7 +170,7 @@ body>main>section>.div-trusted>p {
     background-color: #F3EAE2;
 }
 
-.bring , .choose , .move {
+.bring-choose-move {
     background-color: #F3EAE2;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -180,4 +180,13 @@ h2 {
     font-size: 90%;
     background-color: #F3EAE2;
     font-size: 330%;
+    padding-left: 15px;
+}
+
+.bring-choose-move p{
+    background-color: #F3EAE2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 160%;
+    padding-left: 15px;
+
 }
