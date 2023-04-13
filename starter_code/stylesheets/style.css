@@ -17,16 +17,12 @@ footer links grey: #454245
 
 }
 
-
-
-@media (min-width: 320px) and (max-width: 768px){
-}
-
-
-
-
 div {
     border: 1px solid blue;
+}
+
+main {
+    background-color: #F3EAE2;
 }
 
 
@@ -37,6 +33,11 @@ nav {
     background-color: #540B51;
     width: 100%;
 }
+
+main {
+    background-color: #F3EAE2;
+}
+
 
 .slack-logo {
     width: 30%;
@@ -205,6 +206,8 @@ h2 {
 
 }
 
-main {
-    background-color: #F3EAE2;
+
+
+
+@media (min-width: 320px) and (max-width: 768px){
 }
