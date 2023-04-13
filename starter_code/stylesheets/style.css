@@ -110,12 +110,7 @@ div.section-2 {
     
 }
 
-
-
-
-
 /* section 1*/
-
 
 
 body>header>div>h1 {
@@ -206,6 +201,18 @@ h2 {
 
 }
 
+.section-white {
+    background-color: white;
+} /*conflicto con background*/
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    text-align: center;
+    font-size: 250%;
+    padding: 15px;
+
+}
 
 
 
