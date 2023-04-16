@@ -12,18 +12,18 @@ footer links grey: #454245
 
 /* General*/
 
+
+/*
+div {
+    border: 1px solid blue;
+}*/
+
+
 * {
     background-color: #540B51;
 
 }
 
-div {
-    border: 1px solid blue;
-}
-
-main {
-    background-color: #F3EAE2;
-}
 
 
 nav {
@@ -34,9 +34,6 @@ nav {
     width: 100%;
 }
 
-main {
-    background-color: #F3EAE2;
-}
 
 
 .slack-logo {
@@ -133,20 +130,21 @@ body>header>div>p>span {
 
 .image-hero , .connectedness , .flexibility , .speed {
     width: 100%;
+    margin: 0%;
 }
 
 .lots-of-logos {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 6%;
+    padding: 2%;
     background-color: #F3EAE2;
 }
 
 .lots-of-logos img{
-    height: 60px;
+    height: 45px;
     background-color: #F3EAE2;
-    padding: 3%;
+    padding: 2%;
 }
 
 body>main>section {
@@ -157,17 +155,22 @@ body>main>section>.div-trusted>p {
     background-color: #F3EAE2;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 220%;
+    font-size: 180%;
 }
 
 .div-trusted {
     background-color: #F3EAE2;
 }
 
+.p-trusted {
+    padding-top: 5%;
+}
+
 .bring-choose-move {
     background-color: #F3EAE2;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 13%;
+    margin: 0;
     
 
 }
@@ -205,16 +208,18 @@ h3 {
     text-align: center;
     font-size: 250%;
     padding: 15px;
+    margin: 0%;
 
 }
 
 .section-white {
     background-color: white;
+    margin: 0%;
 }
 
 .section-white .p1sectionwhite {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white
+    background-color: white;
     text-align: center;
     font-size: 180%;
     width: 80%;
@@ -239,7 +244,172 @@ p.p1sectionwhite {
     margin-bottom: 17px;
 }
 
+.talk-button {
+    border-radius: 8px;
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;
+    border: solid;
+    border-color: #540B51;
+    font-size: 150%;
+    padding: 3%;
+    color: #540B51;
+    margin-bottom: 17px;
+}
+
+.div-buttons-meet-talk {
+    background-color: white;
+    padding-left: 6%;
+    padding-top: 2%;
+}
+
+.list-percentages {
+    background-color: white;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.list-percentages p {
+    background-color: white;
+    padding-top: 2%;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 0% 15% 0% 15%;
+
+}
+
+.list-percentages span{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #540B51;
+    font-weight: bold;
+    font-size: 250%;
+
+}
+
+li {
+    background-color: white;
+}
+
+sup {
+    background-color: white;
+}
+
+.talk-button-bottom {
+    background-color: #540B51;
+    border-radius: 8px;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 150%;
+    padding: 3%;
+    color: white;
+    border: solid;
+    border-color: white;
+    margin-bottom: 17px;
+
+}
+
+.try-free-button {
+    border-radius: 8px;
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;
+    border: solid;
+    border-color: #540B51;
+    font-size: 150%;
+    padding: 3%;
+    color: #540B51;
+    margin-bottom: 17px;
+}
+
+.welcome-digital-hq {
+    padding-left: 5%;
+    text-align: center;
+    background-color: #540B51;
+}
+
+.welcome-p {
+    background-color: #540B51;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-right: 10%;
+    padding-left: 8%;
+    padding-bottom: 2%;
+}
+
+.bold-title {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom-li {
+    display: flex;
+    flex-direction: row;   
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+
+}
+
+.bottom-li>ul {
+    list-style-type: none;
+    background-color: white;
+}
+
+
+
+footer {
+    background-color: white;
+}
+
+.logo-bottom {
+    height: 60px;
+    background-color: white;
+    padding: 3%;
+}
+
+.footer-ul {
+    display: flex;
+    flex-direction: column;   
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.socialmedia {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2%;
+    list-style-type: none;
+}
+
+.fa-twitter , .fa-facebook , .fa-youtube , .fa-linkedin  {
+    background-color: white;
+}
+
+.copyrights {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3%;
+}
+
+.copyrights small {
+    background-color: white;
+}
+
+
+
 
 
 @media (min-width: 320px) and (max-width: 768px){
 }
+
