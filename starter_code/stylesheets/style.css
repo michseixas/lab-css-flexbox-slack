@@ -98,19 +98,17 @@ div.section-2 {
    
 }
 
-.section-2 span {
-    background-color: #4285F4;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .buttonGoogle img{
     width: 5%;
     background-color: white;
     
 }
 
-/* section 1*/
+.section-2 span {
+    background-color: #4285F4;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 body>header>div>h1 {
@@ -201,10 +199,6 @@ h2 {
 
 }
 
-.section-white {
-    background-color: white;
-} /*conflicto con background*/
-
 h3 {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
@@ -212,6 +206,37 @@ h3 {
     font-size: 250%;
     padding: 15px;
 
+}
+
+.section-white {
+    background-color: white;
+}
+
+.section-white .p1sectionwhite {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white
+    text-align: center;
+    font-size: 180%;
+    width: 80%;
+
+}
+
+p.p1sectionwhite {
+    background-color: white;
+    padding-left: 13%;
+    text-align: center;
+}
+
+.meet-slack-button {
+    background-color: #540B51;
+    border-radius: 8px;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 150%;
+    padding: 3%;
+    color: white;
+    border: none;
+    margin-bottom: 17px;
 }
 
 
