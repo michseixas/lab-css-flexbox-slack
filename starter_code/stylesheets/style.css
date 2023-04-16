@@ -128,9 +128,10 @@ body>header>div>p>span {
     
 }
 
+
 .image-hero , .connectedness , .flexibility , .speed {
     width: 100%;
-    margin: 0%;
+
 }
 
 .lots-of-logos {
@@ -170,7 +171,7 @@ body>main>section>.div-trusted>p {
     background-color: #F3EAE2;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 13%;
-    margin: 0;
+    
     
 
 }
@@ -180,6 +181,7 @@ h2 {
     background-color: #F3EAE2;
     font-size: 330%;
     padding-left: 15px;
+  
 }
 
 .bring-choose-move p {
@@ -358,6 +360,7 @@ sup {
 .bottom-li>ul {
     list-style-type: none;
     background-color: white;
+    
 }
 
 
